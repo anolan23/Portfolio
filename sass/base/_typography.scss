@@ -1,0 +1,15 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+
+.link {
+  &,
+  &:link,
+  &:visited {
+    cursor: pointer;
+    color: var(--color-link);
+  }
+}
