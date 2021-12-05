@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #222831;
+  --color-dark: #363b43;
+  --color-medium: #909398;
+  --color-light: #c8c9cb;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px
+
+  @media only screen and (max-width: 500px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-y: scroll;
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 300;
+  background-color: var(--color-primary);
+}
