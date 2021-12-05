@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 75px;
+  max-width: 900px;
+  &__logo {
+    &,
+    &:link,
+    &:visited {
+      font-size: 3.2rem;
+      font-weight: 900;
+      color: var(--color-text-primary);
+      text-decoration: none;
+    }
+  }
+  &__nav {
+    &__list {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      &__item {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0 1.6rem;
+
+        & a {
+          &,
+          &:link,
+          &:visited {
+            color: var(--color-link);
+          }
+        }
+        &__icon {
+          cursor: pointer;
+          fill: currentColor;
+          color: var(--color-gray-40);
+          height: 3.2rem;
+          width: 3.2rem;
+        }
+      }
+    }
+  }
+}

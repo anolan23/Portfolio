@@ -1,0 +1,12 @@
+.home {
+  &__main {
+    margin: 100px auto 0;
+    padding: 0 1.6rem;
+    max-width: 960px;
+
+    &__title {
+      font-size: 7.2rem;
+      font-weight: 900;
+    }
+  }
+}

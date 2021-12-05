@@ -28,6 +28,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: var(--color-text-primary);
+  margin: 0 2.4rem;
+  min-height: 100vh;
+  background-color: var(--color-background);
 }
 
 .light-mode {
@@ -39,7 +42,7 @@ body {
 
 .dark-mode {
   --color-link: #00ff94;
-  --color-background: var(--color-black-40);
+  --color-background: var(--color-black-30);
   --color-text-primary: white;
   --color-text-secondary: var(--color-black-20);
 }
