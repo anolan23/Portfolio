@@ -33,16 +33,18 @@ body {
   background-color: var(--color-background);
 }
 
-.light-mode {
+.light {
   --color-link: #0085e5;
   --color-background: white;
   --color-text-primary: var(--color-black-30);
   --color-text-secondary: var(--color-black-20);
+  transition: all 0.3s;
 }
 
-.dark-mode {
+.dark {
   --color-link: #00ff94;
   --color-background: var(--color-black-30);
   --color-text-primary: white;
   --color-text-secondary: var(--color-black-20);
+  transition: all 0.3s;
 }

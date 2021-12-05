@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 
 import '../sass/base.scss';
 import Navbar from '../components/Navbar';
+import { ThemeContext } from '../context/theme';
 
 function MyApp({ Component, pageProps }) {
+  const [isDark, setIsDark] = useState(false);
+  const store = useMemo(() => [isDark, setIsDark], [isDark]);
   return (
-    <React.Fragment>
+    <ThemeContext.Provider value={store}>
       <Navbar />
       <Component {...pageProps} />
-    </React.Fragment>
+    </ThemeContext.Provider>
   );
 }
 

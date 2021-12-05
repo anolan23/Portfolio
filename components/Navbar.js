@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import styles from '../sass/Navbar.module.scss';
 import Icon from './Icon';
+import { useIsDark } from '../context/theme';
 
 function Navbar() {
+  const [isDark, setIsDark] = useIsDark();
+
   return (
     <header className={styles['navbar']}>
       <Link href="/">
@@ -24,6 +27,13 @@ function Navbar() {
             <Icon
               className={styles['navbar__nav__list__item__icon']}
               icon="/sprites.svg#icon-moon-filled"
+              onClick={() => {
+                const current = isDark ? 'dark' : 'light';
+                const theme = isDark ? 'light' : 'dark';
+                document.body.classList.add(theme);
+                document.body.classList.remove(current);
+                setIsDark(!isDark);
+              }}
             />
           </li>
         </ul>
