@@ -1,8 +1,13 @@
 :root {
-  --color-primary: #222831;
-  --color-dark: #363b43;
-  --color-medium: #909398;
-  --color-light: #c8c9cb;
+  --color-black-10: #bfbfbf;
+  --color-black-20: #808080;
+  --color-black-30: #292929;
+  --color-black-40: black;
+
+  --color-text-primary: var(--color-black-30);
+  --color-text-secondary: var(--color-black-20);
+  --color-link: #0085e5;
+  --color-background: white;
 }
 
 *,
@@ -15,10 +20,6 @@
 
 html {
   font-size: 62.5%; //1rem = 10px
-
-  @media only screen and (max-width: 500px) {
-    font-size: 50%;
-  }
 }
 
 body {
@@ -26,9 +27,19 @@ body {
   padding: 0rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-y: scroll;
-  color: white;
-  font-size: 2.4rem;
-  font-weight: 300;
-  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+}
+
+.light-mode {
+  --color-link: #0085e5;
+  --color-background: white;
+  --color-text-primary: var(--color-black-30);
+  --color-text-secondary: var(--color-black-20);
+}
+
+.dark-mode {
+  --color-link: #00ff94;
+  --color-background: var(--color-black-40);
+  --color-text-primary: white;
+  --color-text-secondary: var(--color-black-20);
 }
