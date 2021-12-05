@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 
-import '../sass/base.scss';
+import '../sass/_main.scss';
 import Navbar from '../components/Navbar';
 import { ThemeContext } from '../context/theme';
 

@@ -15,12 +15,12 @@ function Navbar() {
         <ul className={styles['navbar__nav__list']}>
           <li className={styles['navbar__nav__list__item']}>
             <Link href="/">
-              <a>Projects</a>
+              <a className="link">Projects</a>
             </Link>
           </li>
           <li className={styles['navbar__nav__list__item']}>
             <Link href="/">
-              <a>Blog</a>
+              <a className="link">Blog</a>
             </Link>
           </li>
           <li className={styles['navbar__nav__list__item']}>

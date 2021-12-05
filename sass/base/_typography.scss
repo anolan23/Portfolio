@@ -1,7 +1,8 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 00;
+  font-size: 3.2rem;
   color: var(--color-text-primary);
 }
 
@@ -11,5 +12,6 @@ body {
   &:visited {
     cursor: pointer;
     color: var(--color-link);
+    text-decoration: underline;
   }
 }

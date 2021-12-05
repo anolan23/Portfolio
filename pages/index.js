@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Link from 'next/link';
+
 import styles from '../sass/pages/Home.module.scss';
 
 export default function Home() {
@@ -10,6 +12,61 @@ export default function Home() {
       </Head>
       <main className={styles['home__main']}>
         <h1 className={styles['home__main__title']}>Hi, I'm Aaron</h1>
+        <div className={styles['home__main__text']}>
+          A web developer looking to join a team.
+        </div>
+        <Link href="/">
+          <a className={`${styles['home__main__text']} link`}>
+            See some of my past projects
+          </a>
+        </Link>
+        <div className={styles['home__main__text']}>
+          Here are the technologies I use:
+        </div>
+        <ol className={styles['home__main__skills']}>
+          <li className={styles['home__main__skills__skill']}>Git/Github</li>
+          <li className={styles['home__main__skills__skill']}>HTML</li>
+          <li className={styles['home__main__skills__skill']}>CSS</li>
+          <li className={styles['home__main__skills__skill']}>Javascript</li>
+          <li className={styles['home__main__skills__skill']}>
+            React & Nextjs
+          </li>
+          <li className={styles['home__main__skills__skill']}>Redux</li>
+          <li className={styles['home__main__skills__skill']}>Node</li>
+          <li className={styles['home__main__skills__skill']}>PostgreSQL</li>
+          <li className={styles['home__main__skills__skill']}>MongoDB</li>
+          <li className={styles['home__main__skills__skill']}>GraphQL</li>
+          <li className={styles['home__main__skills__skill']}>Web3js</li>
+          <li className={styles['home__main__skills__skill']}>Solidity</li>
+        </ol>
+        <hr />
+        <div className={styles['home__main__projects']}>
+          <div className={styles['home__main__projects__project']}>
+            <span
+              className={`${styles['home__main__projects__project__title']} link`}
+            >
+              Twitleague
+            </span>
+            <p className={styles['home__main__projects__project__text']}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              ut odit accusamus eveniet sequi animi nesciunt, praesentium, amet
+              quos fuga esse.
+            </p>
+          </div>
+          <div className={styles['home__main__projects__project']}>
+            <span
+              className={`${styles['home__main__projects__project__title']} link`}
+            >
+              Yesla
+            </span>
+            <p className={styles['home__main__projects__project__text']}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              ut odit accusamus eveniet sequi animi nesciunt, praesentium, amet
+              quos fuga esse.
+            </p>
+          </div>
+        </div>
+        <hr />
       </main>
       <footer></footer>
     </div>

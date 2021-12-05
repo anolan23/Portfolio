@@ -27,13 +27,6 @@
         font-size: 2rem;
         margin: 0 1.6rem;
 
-        & a {
-          &,
-          &:link,
-          &:visited {
-            color: var(--color-link);
-          }
-        }
         &__icon {
           cursor: pointer;
           fill: currentColor;

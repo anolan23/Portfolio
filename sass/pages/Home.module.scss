@@ -9,5 +9,28 @@
       font-weight: 900;
       user-select: none;
     }
+
+    &__text {
+      font-size: 3.2rem;
+    }
+
+    &__skills {
+      list-style: none;
+      column-count: 3;
+      &__skill {
+        margin-bottom: 1.6rem;
+      }
+    }
+
+    &__projects {
+      &__project {
+        &__title {
+          font-weight: 900;
+        }
+        &__text {
+          color: var(--color-text-secondary);
+        }
+      }
+    }
   }
 }
