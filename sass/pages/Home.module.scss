@@ -12,6 +12,11 @@
       @media only screen and (max-width: 450px) {
         font-size: 5.6rem;
       }
+
+      &__icon {
+        height: 5rem;
+        width: 5rem;
+      }
     }
 
     &__text {
@@ -30,7 +35,7 @@
       list-style: none;
       margin: 1.6rem 0;
       column-count: 3;
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 650px) {
         column-count: 2;
       }
       &__skill {
