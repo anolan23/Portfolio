@@ -14,7 +14,7 @@ function Navbar() {
       <nav className={styles['navbar__nav']}>
         <ul className={styles['navbar__nav__list']}>
           <li className={styles['navbar__nav__list__item']}>
-            <Link href="/">
+            <Link href="/projects">
               <a className="link">Projects</a>
             </Link>
           </li>

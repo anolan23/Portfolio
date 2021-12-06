@@ -7,7 +7,7 @@ function Footer() {
       <nav className={styles['footer__nav']}>
         <ul className={styles['footer__nav__list']}>
           <li className={styles['footer__nav__list__item']}>
-            <Link href="/">
+            <Link href="/projects">
               <a>Projects</a>
             </Link>
           </li>
