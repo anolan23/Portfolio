@@ -12,15 +12,13 @@ export default function Home() {
       </Head>
       <main className={styles['home__main']}>
         <h1 className={styles['home__main__title']}>Hi, I'm Aaron</h1>
-        <div className={styles['home__main__text']}>
+        <div className={`${styles['home__main__text--goal']}`}>
           A web developer looking to join a team.
         </div>
         <Link href="/">
-          <a className={`${styles['home__main__text']} link`}>
-            See some of my past projects
-          </a>
+          <a className={'link'}>See some of my past projects</a>
         </Link>
-        <div className={styles['home__main__text']}>
+        <div className={styles['home__main__text--tech']}>
           Here are the technologies I use:
         </div>
         <ol className={styles['home__main__skills']}>
@@ -39,7 +37,10 @@ export default function Home() {
           <li className={styles['home__main__skills__skill']}>Web3js</li>
           <li className={styles['home__main__skills__skill']}>Solidity</li>
         </ol>
-        <hr />
+        <hr className={styles['home__hr']} />
+        <div className={styles['home__main__text--sides']}>
+          A few side projects I am working on:
+        </div>
         <div className={styles['home__main__projects']}>
           <div className={styles['home__main__projects__project']}>
             <span
@@ -66,7 +67,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <hr />
+        <hr className={styles['home__hr']} />
       </main>
       <footer></footer>
     </div>

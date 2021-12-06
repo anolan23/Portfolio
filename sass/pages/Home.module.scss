@@ -8,29 +8,52 @@
       font-size: 7.2rem;
       font-weight: 900;
       user-select: none;
+      margin-bottom: 3.2rem;
     }
 
     &__text {
-      font-size: 3.2rem;
+      &--goal {
+        margin: 3.2rem 0 2.4rem 0;
+      }
+      &--tech {
+        margin: 4.8rem 0 2.4rem 0;
+      }
+      &--sides {
+        margin: 4.8rem 0 2.4rem 0;
+      }
     }
 
     &__skills {
       list-style: none;
+      margin: 1.6rem 0;
       column-count: 3;
+      @media only screen and (max-width: 600px) {
+        column-count: 2;
+      }
       &__skill {
         margin-bottom: 1.6rem;
       }
     }
 
     &__projects {
+      display: grid;
+      row-gap: 3.2rem;
+      margin: 3.2rem 0;
       &__project {
         &__title {
           font-weight: 900;
         }
         &__text {
           color: var(--color-text-secondary);
+          max-width: 600px;
+          font-size: 2.4rem;
+          line-height: 1.5;
         }
       }
     }
+  }
+
+  &__hr {
+    margin: 1.6rem 0;
   }
 }
