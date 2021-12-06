@@ -9,46 +9,46 @@ function Projects() {
       title: 'Twitleague',
       src: '/twit.jpeg',
       description: 'Social media app',
-      href: '/',
+      href: 'https://twitleague-next-js.vercel.app',
     },
     {
       title: 'Yesla',
       src: '/twit.jpeg',
-      description: 'Social media app',
-      href: '/',
+      description: 'Copy of Telsa site for Frontend practice',
+      href: null,
     },
   ];
 
   const pastProjects = [
     {
-      title: 'Nexter',
-      src: '/nexter.jpeg',
-      description: 'Real estate website',
-      href: '/',
-    },
-    {
-      title: 'Trillo',
-      src: '/trillo.jpeg',
-      description: 'Hotel & flight finder',
-      href: '/',
-    },
-    {
-      title: 'Natours',
-      src: '/natours.jpeg',
-      description: 'Adventure tours',
-      href: '/',
-    },
-    {
       title: 'CrowdCoin',
       src: '/twit.jpeg',
-      description: 'Decentralized Kickstarter',
-      href: '/',
+      description: 'Decentralized Kickstarter dapp',
+      href: null,
     },
     {
       title: 'Mybnb',
       src: '/mybnb.jpg',
-      description: 'Decentralized Airbnb',
-      href: '/',
+      description: 'Decentralized Airbnb clientside',
+      href: null,
+    },
+    {
+      title: 'Nexter',
+      src: '/nexter.jpeg',
+      description: 'Real estate clientside',
+      href: 'https://nexter-ecru.vercel.app',
+    },
+    {
+      title: 'Trillo',
+      src: '/trillo.jpeg',
+      description: 'Hotel finder clientside',
+      href: 'https://trillo-mu-sable.vercel.app',
+    },
+    {
+      title: 'Natours',
+      src: '/natours.jpeg',
+      description: 'Adventure tours clientside',
+      href: 'https://natours-rust-zeta.vercel.app',
     },
   ];
 

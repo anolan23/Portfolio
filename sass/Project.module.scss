@@ -1,23 +1,26 @@
 .project {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   &__image {
     position: relative;
     padding-top: 50%;
     width: 100%;
+    border: 1px solid lightgray;
   }
 
   &__caption {
-    display: flex;
-    justify-content: center;
-    margin: 1.6rem 0;
+    margin-top: 1.6rem;
+    font-size: 2rem;
+    text-align: center;
+
     &__title {
-      font-size: 1.8rem;
-      font-weight: 700;
+      font-size: inherit;
+      font-weight: 900;
     }
     &__description {
-      font-size: 1.8rem;
+      font-size: inherit;
     }
   }
 }
