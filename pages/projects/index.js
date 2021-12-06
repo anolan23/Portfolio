@@ -22,9 +22,9 @@ function Projects() {
   const pastProjects = [
     {
       title: 'CrowdCoin',
-      src: '/twit.jpeg',
+      src: '/crowdcoin.png',
       description: 'Decentralized Kickstarter dapp',
-      href: null,
+      href: 'https://crowd-coin-almhd4ydx-anolan23.vercel.app/',
     },
     {
       title: 'Mybnb',

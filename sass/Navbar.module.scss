@@ -35,8 +35,9 @@
 
         &__icon {
           cursor: pointer;
+          color: var(--color-text-primary);
           fill: currentColor;
-          color: var(--color-gray-40);
+
           height: 3.2rem;
           width: 3.2rem;
         }
