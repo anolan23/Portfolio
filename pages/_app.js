@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 
 import '../sass/_main.scss';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { ThemeContext } from '../context/theme';
 
 function MyApp({ Component, pageProps }) {
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeContext.Provider value={store}>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </ThemeContext.Provider>
   );
 }
