@@ -1,6 +1,6 @@
 .footer {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 4.8rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   color: var(--color-text-secondary);
 
   &__nav {
-    margin: 1.6rem;
+    margin: 0 1.6rem;
     &__list {
       display: flex;
       list-style: none;

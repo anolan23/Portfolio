@@ -9,6 +9,9 @@
       font-weight: 900;
       user-select: none;
       margin-bottom: 3.2rem;
+      @media only screen and (max-width: 450px) {
+        font-size: 5.6rem;
+      }
     }
 
     &__text {
@@ -19,7 +22,7 @@
         margin: 4.8rem 0 2.4rem 0;
       }
       &--sides {
-        margin: 4.8rem 0 2.4rem 0;
+        margin: 4.8rem 0;
       }
     }
 
@@ -38,7 +41,7 @@
     &__projects {
       display: grid;
       row-gap: 3.2rem;
-      margin: 3.2rem 0;
+      margin: 4.8rem 0;
       &__project {
         &__title {
           font-weight: 900;
@@ -54,6 +57,6 @@
   }
 
   &__hr {
-    margin: 1.6rem 0;
+    margin: 4.8rem 0;
   }
 }
