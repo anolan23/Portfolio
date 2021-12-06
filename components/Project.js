@@ -13,7 +13,7 @@ function Project({ project }) {
           {title}
         </span>
         <span> | {description} | </span>
-        <a className={'link'} href={href}>
+        <a className={`${styles['project__caption__demo']} link`} href={href}>
           Demo
         </a>
       </div>

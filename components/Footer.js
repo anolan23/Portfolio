@@ -35,9 +35,12 @@ function Footer() {
             </a>
           </Link>
         </div>
-        <Link href="/">
-          <a className={styles['footer__contact__twitter']}>Twitter</a>
-        </Link>
+        <a
+          className={styles['footer__contact__twitter']}
+          href="https://twitter.com/anol1258"
+        >
+          Twitter
+        </a>
       </div>
     </footer>
   );

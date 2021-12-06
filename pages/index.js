@@ -43,11 +43,12 @@ export default function Home() {
         </div>
         <div className={styles['home__main__projects']}>
           <div className={styles['home__main__projects__project']}>
-            <span
+            <a
+              href="https://twitleague-next-js.vercel.app"
               className={`${styles['home__main__projects__project__title']} link`}
             >
               Twitleague
-            </span>
+            </a>
             <p className={styles['home__main__projects__project__text']}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               ut odit accusamus eveniet sequi animi nesciunt, praesentium, amet
@@ -55,11 +56,11 @@ export default function Home() {
             </p>
           </div>
           <div className={styles['home__main__projects__project']}>
-            <span
+            <a
               className={`${styles['home__main__projects__project__title']} link`}
             >
               Yesla
-            </span>
+            </a>
             <p className={styles['home__main__projects__project__text']}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               ut odit accusamus eveniet sequi animi nesciunt, praesentium, amet
