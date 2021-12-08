@@ -13,9 +13,9 @@ function Projects() {
     },
     {
       title: 'Yesla',
-      src: '/twit.jpeg',
+      src: '/yesla.png',
       description: 'Copy of Telsa site for Frontend practice',
-      href: null,
+      href: 'https://yesla.vercel.app',
     },
   ];
 

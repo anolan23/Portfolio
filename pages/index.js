@@ -57,6 +57,7 @@ export default function Home() {
           </div>
           <div className={styles['home__main__projects__project']}>
             <a
+              href="https://yesla.vercel.app"
               className={`${styles['home__main__projects__project__title']} link`}
             >
               Yesla
