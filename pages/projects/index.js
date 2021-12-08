@@ -8,13 +8,13 @@ function Projects() {
     {
       title: 'Twitleague',
       src: '/twit.jpeg',
-      description: 'Social media app',
+      description: 'Social media',
       href: 'https://twitleague-next-js.vercel.app',
     },
     {
       title: 'Yesla',
       src: '/yesla.png',
-      description: 'Copy of Telsa site for Frontend practice',
+      description: 'Copy of Telsa site',
       href: 'https://yesla.vercel.app',
     },
   ];
@@ -23,31 +23,31 @@ function Projects() {
     {
       title: 'CrowdCoin',
       src: '/crowdcoin.png',
-      description: 'Decentralized Kickstarter dapp',
+      description: 'Decentralized Kickstarter',
       href: 'https://crowd-coin-almhd4ydx-anolan23.vercel.app/',
     },
     {
       title: 'Mybnb',
       src: '/mybnb.jpg',
-      description: 'Decentralized Airbnb clientside',
+      description: 'Decentralized Airbnb F/E',
       href: null,
     },
     {
       title: 'Nexter',
       src: '/nexter.jpeg',
-      description: 'Real estate clientside',
+      description: 'Real estate F/E',
       href: 'https://nexter-ecru.vercel.app',
     },
     {
       title: 'Trillo',
       src: '/trillo.jpeg',
-      description: 'Hotel finder clientside',
+      description: 'Hotel finder F/E',
       href: 'https://trillo-mu-sable.vercel.app',
     },
     {
       title: 'Natours',
       src: '/natours.jpeg',
-      description: 'Adventure tours clientside',
+      description: 'Adventure tours F/E',
       href: 'https://natours-rust-zeta.vercel.app',
     },
   ];

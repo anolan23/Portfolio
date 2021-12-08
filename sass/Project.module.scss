@@ -5,9 +5,9 @@
 
   &__image {
     position: relative;
-    padding-top: 50%;
+    padding-top: 60%;
     width: 100%;
-    border: 1px solid lightgray;
+    border: 1px solid var(--color-border);
   }
 
   &__caption {
@@ -23,7 +23,6 @@
       font-size: inherit;
     }
     &__demo {
-      font-weight: 700;
     }
   }
 }

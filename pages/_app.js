@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import { ThemeContext } from '../context/theme';
 
 function MyApp({ Component, pageProps }) {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
   const store = useMemo(() => [isDark, setIsDark], [isDark]);
   return (
     <ThemeContext.Provider value={store}>
