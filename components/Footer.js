@@ -29,11 +29,12 @@ function Footer() {
             email:
           </span>
           &nbsp;
-          <Link href="/">
-            <a className={styles['footer__contact__email__value']}>
-              aaron.nolan24@gmail.com
-            </a>
-          </Link>
+          <a
+            className={styles['footer__contact__email__value']}
+            href="mailto:aaron.nolan24@gmail.com"
+          >
+            aaron.nolan24@gmail.com
+          </a>
         </div>
         <a
           className={styles['footer__contact__twitter']}
