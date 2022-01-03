@@ -33,6 +33,12 @@ function Projects() {
       href: null,
     },
     {
+      title: 'Forkify',
+      src: '/forkify.jpeg',
+      description: 'Bookmark recipes',
+      href: 'https://forkify-nine.vercel.app/',
+    },
+    {
       title: 'Nexter',
       src: '/nexter.jpeg',
       description: 'Real estate F/E',
