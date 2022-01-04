@@ -13,6 +13,10 @@ body {
     cursor: pointer;
     color: var(--color-link);
     text-decoration: underline;
+    transition: all 0.3s;
+    &:hover {
+      color: var(--color-text-primary);
+    }
   }
 }
 

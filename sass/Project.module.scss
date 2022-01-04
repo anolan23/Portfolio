@@ -8,21 +8,46 @@
     padding-top: 60%;
     width: 100%;
     border: 1px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
   }
 
   &__caption {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin-top: 1.6rem;
     font-size: 2rem;
-    text-align: center;
 
-    &__title {
-      font-size: inherit;
-      font-weight: 900;
+    &__text {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      &__title {
+        font-size: inherit;
+        font-weight: 900;
+      }
+      &__description {
+        font-size: inherit;
+      }
     }
-    &__description {
-      font-size: inherit;
+
+    &__links {
+      display: flex;
+      align-items: center;
+      &__ &__demo {
+      }
     }
-    &__demo {
-    }
+  }
+
+  &__icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: var(--color-text-primary);
+    fill: currentColor;
   }
 }

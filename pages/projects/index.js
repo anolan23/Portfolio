@@ -10,12 +10,14 @@ function Projects() {
       src: '/twit.jpeg',
       description: 'Social media',
       href: 'https://twitleague-next-js.vercel.app',
+      repoUrl: 'https://github.com/anolan23/twitleagueNextJS',
     },
     {
       title: 'Yesla',
       src: '/yesla.png',
       description: 'Copy of Telsa site',
       href: 'https://yesla.vercel.app',
+      repoUrl: 'https://github.com/anolan23/yesla',
     },
   ];
 
@@ -25,6 +27,7 @@ function Projects() {
       src: '/crowdcoin.png',
       description: 'Decentralized Kickstarter',
       href: 'https://crowd-coin-almhd4ydx-anolan23.vercel.app/',
+      repoUrl: 'https://github.com/anolan23/crowd-coin',
     },
     {
       title: 'Mybnb',
@@ -37,24 +40,28 @@ function Projects() {
       src: '/forkify.jpeg',
       description: 'Bookmark recipes',
       href: 'https://forkify-nine.vercel.app/',
+      repoUrl: 'https://github.com/anolan23/Forkify',
     },
     {
       title: 'Nexter',
       src: '/nexter.jpeg',
       description: 'Real estate F/E',
       href: 'https://nexter-ecru.vercel.app',
+      repoUrl: 'https://github.com/anolan23/Nexter',
     },
     {
       title: 'Trillo',
       src: '/trillo.jpeg',
       description: 'Hotel finder F/E',
       href: 'https://trillo-mu-sable.vercel.app',
+      repoUrl: 'https://github.com/anolan23/Trillo',
     },
     {
       title: 'Natours',
       src: '/natours.jpeg',
       description: 'Adventure tours F/E',
       href: 'https://natours-rust-zeta.vercel.app',
+      repoUrl: 'https://github.com/anolan23/Natours',
     },
   ];
 
