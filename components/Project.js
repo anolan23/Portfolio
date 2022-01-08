@@ -47,10 +47,8 @@ function Project({ project }) {
   }
   return (
     <div className={styles['project']}>
-      <div className={styles['project__image']}>
-        <Image src={src} layout="fill" objectFit="cover" objectPosition="top" />
-      </div>
-      {renderCaption()}
+      <img className={styles['project__image']} src={src} alt="item" />
+      <label className={styles['project__label']}>{title}</label>
     </div>
   );
 }
