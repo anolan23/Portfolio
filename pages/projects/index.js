@@ -14,7 +14,7 @@ function Projects() {
     },
     {
       title: 'Yesla',
-      src: '/yesla.png',
+      src: '/yesla.jpeg',
       description: 'Copy of Telsa site',
       href: 'https://yesla.vercel.app',
       repoUrl: 'https://github.com/anolan23/yesla',
