@@ -4,7 +4,7 @@ import Project from '../../components/Project';
 import styles from '../../sass/pages/Projects.module.scss';
 
 function Projects() {
-  const sideProjects = [
+  const projects = [
     {
       title: 'Twitleague',
       src: '/twit.jpeg',
@@ -19,9 +19,13 @@ function Projects() {
       href: 'https://yesla.vercel.app',
       repoUrl: 'https://github.com/anolan23/yesla',
     },
-  ];
-
-  const pastProjects = [
+    {
+      title: 'my-unsplash',
+      src: '/my-unsplash.png',
+      description: 'Unsplash replica',
+      href: 'https://yesla.vercel.app',
+      repoUrl: 'https://github.com/anolan23/yesla',
+    },
     {
       title: 'CrowdCoin',
       src: '/crowdcoin.png',
@@ -66,12 +70,7 @@ function Projects() {
   ];
 
   function renderProjects() {
-    return sideProjects.map((project, index) => {
-      return <Project key={index} project={project} />;
-    });
-  }
-  function renderPastProjects() {
-    return pastProjects.map((project, index) => {
+    return projects.map((project, index) => {
       return <Project key={index} project={project} />;
     });
   }
@@ -85,19 +84,8 @@ function Projects() {
       <main className={styles['projects__main']}>
         <h1 className={styles['projects__main__title']}>Project Gallery</h1>
         <section className={styles['projects__main__section']}>
-          <h2 className={styles['projects__main__section__title']}>
-            Side projects
-          </h2>
           <div className={styles['projects__main__section__grid']}>
             {renderProjects()}
-          </div>
-        </section>
-        <section className={styles['projects__main__section']}>
-          <h2 className={styles['projects__main__section__title']}>
-            Past projects
-          </h2>
-          <div className={styles['projects__main__section__grid']}>
-            {renderPastProjects()}
           </div>
         </section>
       </main>
