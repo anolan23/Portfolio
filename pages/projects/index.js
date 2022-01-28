@@ -6,13 +6,12 @@ import styles from '../../sass/pages/Projects.module.scss';
 function Projects() {
   const projects = [
     {
-      title: 'Twitleague',
-      src: '/twit.jpeg',
-      description: 'Social media',
-      href: 'https://twitleague-next-js.vercel.app',
-      repoUrl: 'https://github.com/anolan23/twitleagueNextJS',
+      title: 'Shoppingify',
+      src: '/shoppingify.png',
+      description: 'Shopping list tracker',
+      href: 'https://shoppingify-aaron.herokuapp.com/dashboard',
+      repoUrl: 'https://github.com/anolan23/shoppingify',
     },
-
     {
       title: 'my-unsplash',
       src: '/my-unsplash.png',
@@ -22,10 +21,33 @@ function Projects() {
     },
     {
       title: 'Yesla',
-      src: '/yesla.jpeg',
+      src: '/yesla.png',
       description: 'Copy of Telsa site',
       href: 'https://yesla.vercel.app',
       repoUrl: 'https://github.com/anolan23/yesla',
+    },
+
+    {
+      title: 'auth',
+      src: '/auth.png',
+      description: 'Auth app',
+      href: 'https://aaron-auth-app.herokuapp.com/signup',
+      repoUrl: 'https://github.com/anolan23/auth',
+    },
+    {
+      title: 'twitleague',
+      src: '/twit.jpeg',
+      description: 'Social media',
+      href: 'https://twitleague-next-js.vercel.app',
+      repoUrl: 'https://github.com/anolan23/twitleagueNextJS',
+    },
+
+    {
+      title: 'CatWiki',
+      src: '/cat-wiki.png',
+      description: 'Cat breeds wikipedia',
+      href: 'https://aaron-cat-wiki.herokuapp.com/',
+      repoUrl: 'https://github.com/anolan23/CatWiki',
     },
     {
       title: 'CrowdCoin',
@@ -34,18 +56,12 @@ function Projects() {
       href: 'https://crowd-coin-almhd4ydx-anolan23.vercel.app/',
       repoUrl: 'https://github.com/anolan23/crowd-coin',
     },
+
     {
       title: 'Mybnb',
       src: '/mybnb.jpg',
       description: 'Decentralized Airbnb F/E',
-      href: null,
-    },
-    {
-      title: 'Forkify',
-      src: '/forkify.jpeg',
-      description: 'Bookmark recipes',
-      href: 'https://forkify-nine.vercel.app/',
-      repoUrl: 'https://github.com/anolan23/Forkify',
+      href: '/',
     },
     {
       title: 'Nexter',
@@ -53,6 +69,13 @@ function Projects() {
       description: 'Real estate F/E',
       href: 'https://nexter-ecru.vercel.app',
       repoUrl: 'https://github.com/anolan23/Nexter',
+    },
+    {
+      title: 'Forkify',
+      src: '/forkify.jpeg',
+      description: 'Bookmark recipes',
+      href: 'https://forkify-nine.vercel.app/',
+      repoUrl: 'https://github.com/anolan23/Forkify',
     },
     {
       title: 'Trillo',
