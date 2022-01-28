@@ -14,14 +14,14 @@ function Projects() {
     },
     {
       title: 'my-unsplash',
-      src: '/my-unsplash.png',
+      src: '/my-unsplash.jpg',
       description: 'Unsplash replica',
       href: 'https://aaron-my-unsplash.herokuapp.com/',
       repoUrl: 'https://github.com/anolan23/my-unsplash',
     },
     {
       title: 'Yesla',
-      src: '/yesla.png',
+      src: '/yesla.jpg',
       description: 'Copy of Telsa site',
       href: 'https://yesla.vercel.app',
       repoUrl: 'https://github.com/anolan23/yesla',
@@ -44,7 +44,7 @@ function Projects() {
 
     {
       title: 'CatWiki',
-      src: '/cat-wiki.png',
+      src: '/cat-wiki.jpg',
       description: 'Cat breeds wikipedia',
       href: 'https://aaron-cat-wiki.herokuapp.com/',
       repoUrl: 'https://github.com/anolan23/CatWiki',
