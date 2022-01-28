@@ -36,7 +36,7 @@ function Projects() {
     },
     {
       title: 'twitleague',
-      src: '/twit.jpeg',
+      src: '/twit.png',
       description: 'Social media',
       href: 'https://twitleague-next-js.vercel.app',
       repoUrl: 'https://github.com/anolan23/twitleagueNextJS',
