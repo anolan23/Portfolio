@@ -51,7 +51,7 @@ export default function Home() {
             <p className={styles['home__main__projects__project__text']}>
               Tracks your shopping lists that you've created. A statistics page
               displays your top items/categories as well as a chart which
-              compares month to month differences.q
+              compares month to month differences.
             </p>
           </div>
           <div className={styles['home__main__projects__project']}>
