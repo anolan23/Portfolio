@@ -4,31 +4,27 @@
   &:visited {
     display: block;
     position: relative;
-    margin-bottom: 4rem;
     width: 100%;
-    overflow: hidden;
     transition: all 0.4s;
     cursor: pointer;
   }
 
-  &:hover {
-    & img {
-      filter: brightness(40%);
-    }
-    & label {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    & svg {
-      opacity: 1;
-    }
-  }
-
   &__image {
+    margin-top: 3.2rem;
     width: 100%;
-    border: 2px solid var(--color-border);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
     border-radius: 1.2rem;
     transition: all 0.4s;
+    &:hover {
+      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2)) brightness(40%);
+      & ~ label {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      & ~ svg {
+        opacity: 1;
+      }
+    }
   }
 
   &__label {
@@ -48,7 +44,7 @@
     width: 38px;
     fill: white;
     position: absolute;
-    top: 3.2rem;
+    top: 5.6rem;
     right: 2.4rem;
     cursor: pointer;
     opacity: 0;

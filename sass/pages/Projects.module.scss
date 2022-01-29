@@ -1,13 +1,13 @@
 .projects {
   &__main {
-    margin: 100px auto 0;
-    padding: 0 8rem;
-    max-width: 2000px;
+    margin: 6.4rem auto 0;
+
     &__title {
       text-align: center;
-      margin: 100px 0;
-      @media only screen and (max-width: 550px) {
-        font-size: 5.6rem;
+      margin: 3.2rem 0;
+      white-space: nowrap;
+      @media only screen and (max-width: 750px) {
+        font-size: 4.8rem;
       }
     }
     &__section {

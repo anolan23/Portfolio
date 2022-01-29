@@ -29,10 +29,6 @@ function Navbar() {
                 !isDark ? '-outlined' : ''
               }`}
               onClick={() => {
-                const current = isDark ? 'dark' : 'light';
-                const theme = isDark ? 'light' : 'dark';
-                document.body.classList.add(theme);
-                document.body.classList.remove(current);
                 setIsDark(!isDark);
               }}
             >

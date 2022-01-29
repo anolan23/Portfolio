@@ -4,11 +4,11 @@
   --color-black-30: #292929;
   --color-black-40: black;
 
-  --color-text-primary: white;
-  --color-text-secondary: #c3c3c3;
-  --color-link: #98fcd2;
-  --color-background: #181818;
-  --color-border: transparent;
+  --color-text-primary: var(--color-black-30);
+  --color-text-secondary: var(--color-black-20);
+  --color-link: #0085e5;
+  --color-background: white;
+  --color-border: lightgray;
 }
 
 *,
@@ -33,11 +33,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: var(--color-text-primary);
-  margin: 0 2.4rem;
   min-height: 100vh;
   background-color: var(--color-background);
-  @media only screen and (max-width: 600px) {
-    margin: 0.8rem;
+  padding: 0 8rem;
+  max-width: 1800px;
+  margin: auto;
+  @media only screen and (max-width: 900px) {
+    padding: 0 3.2rem;
   }
 }
 
