@@ -42,6 +42,7 @@ export default function Home() {
         <div className={styles['home__main__projects']}>
           <div className={styles['home__main__projects__project']}>
             <a
+              href="https://shoppingify-aaron.herokuapp.com/dashboard"
               className={`${styles['home__main__projects__project__title']} link`}
               href="https://shoppingify-aaron.herokuapp.com/dashboard"
               target="_blank"
@@ -56,6 +57,7 @@ export default function Home() {
           </div>
           <div className={styles['home__main__projects__project']}>
             <a
+              href="https://twitleague-next-js.vercel.app"
               className={`${styles['home__main__projects__project__title']} link`}
               href="https://twitleague-next-js.vercel.app"
               target="_blank"
