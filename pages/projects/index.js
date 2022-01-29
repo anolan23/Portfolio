@@ -61,7 +61,7 @@ function Projects() {
       title: 'Mybnb',
       src: '/mybnb.jpg',
       description: 'Decentralized Airbnb F/E',
-      href: '/',
+      href: null,
     },
     {
       title: 'Nexter',
@@ -102,7 +102,7 @@ function Projects() {
 
   function renderProjects() {
     return projects.map((project, index) => {
-      return <Project key={index} project={project} />;
+      return <Project key={project.title} project={project} />;
     });
   }
 

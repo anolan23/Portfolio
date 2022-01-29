@@ -24,9 +24,10 @@ function Navbar() {
             </Link>
           </li>
           <li className={styles['navbar__nav__list__item']}>
-            <Icon
-              className={styles['navbar__nav__list__item__icon']}
-              icon="/sprites.svg#icon-moon-filled"
+            <span
+              className={`${styles['navbar__nav__icon']} material-icons${
+                !isDark ? '-outlined' : ''
+              }`}
               onClick={() => {
                 const current = isDark ? 'dark' : 'light';
                 const theme = isDark ? 'light' : 'dark';
@@ -34,7 +35,9 @@ function Navbar() {
                 document.body.classList.remove(current);
                 setIsDark(!isDark);
               }}
-            />
+            >
+              dark_mode
+            </span>
           </li>
         </ul>
       </nav>

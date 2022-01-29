@@ -13,11 +13,14 @@
 
   &:hover {
     & img {
-      filter: brightness(50%);
+      filter: brightness(40%);
     }
     & label {
       opacity: 1;
       transform: translateY(0);
+    }
+    & svg {
+      opacity: 1;
     }
   }
 
@@ -40,12 +43,15 @@
     transform: translateY(100%);
     cursor: pointer;
   }
-
   &__icon {
-    height: 30px;
-    width: 30px;
+    height: 38px;
+    width: 38px;
+    fill: white;
+    position: absolute;
+    top: 3.2rem;
+    right: 2.4rem;
     cursor: pointer;
-    color: var(--color-text-primary);
-    fill: currentColor;
+    opacity: 0;
+    transition: all 0.4s;
   }
 }
