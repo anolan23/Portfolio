@@ -39,6 +39,7 @@ function Footer() {
         <a
           className={styles['footer__contact__twitter']}
           href="https://twitter.com/anol1258"
+          target="_blank"
         >
           Twitter
         </a>
