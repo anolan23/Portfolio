@@ -13,6 +13,13 @@ function Projects() {
       repoUrl: 'https://github.com/anolan23/shoppingify',
     },
     {
+      title: 'chat-app',
+      src: '/chat-app.jpg',
+      description: 'Chat app',
+      href: 'https://chat-app-aaron.herokuapp.com/channels/1',
+      repoUrl: 'https://github.com/anolan23/chat-app',
+    },
+    {
       title: 'my-unsplash',
       src: '/my-unsplash.jpg',
       description: 'Unsplash replica',
